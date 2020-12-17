@@ -1,0 +1,354 @@
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("Fuentes/OpenSans-Bold.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url("Fuentes/OpenSans-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "BebasNeue";
+	src: url("Fuentes/BebasNeue.otf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+#contenedor {
+	background: #f7f7f7;
+	width: 95%;
+	margin: 0px auto;
+	background-color: white;
+	border: 1px solid #cccccc;
+	box-shadow: 0px 0px 10px gray;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#header {
+	background-color: #77d877;
+	height: 120px;
+	margin-bottom: 20px;
+}
+
+#header h1 {
+	line-height: 120px;
+	color: white;
+	font-weight: 700;
+}
+
+.carousel-inner {
+	width: 95%;
+	margin-left: 2.5%;
+}
+
+.jumbotron {
+	background-color: #ceb64e;
+}
+
+.h5,
+h5 {
+	font-size: 1.22rem;
+}
+
+.card-footer {
+	background-color: #ffcc33;
+}
+
+.text-muted {
+	font-size: 14px;
+}
+
+/*ESTILOS DEL MENU*/
+#menu {
+	width: 100%;
+	height: 66px;
+	background-color: #ffffff;
+	line-height: 66px;
+	box-shadow: 0px 0px 10px #ccc;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+#menu > ul {
+	text-decoration: none;
+	list-style: none;
+}
+
+#menu > ul > li {
+	float: left;
+	transition: all 300ms;
+
+	font-weight: 300;
+}
+
+#menu > ul > li > a {
+	padding-left: 25px;
+	padding-right: 25px;
+	color: #333;
+	font-size: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+#menu > ul > li:hover:not(.active) {
+	background-color: #77d877;
+}
+
+#menu > ul > li:hover a {
+	color: #f2f1f0;
+}
+
+#menu > ul > li > .active {
+	font-weight: bold;
+	color: white;
+	text-shadow: 0px 0px 1px #fff;
+	background-color: #77d877;
+}
+
+/** MENU DESPLEGABLE**/
+#menu > ul > li > ul {
+	display: none;
+	position: absolute;
+	width: 250px;
+	z-index: 1;
+}
+
+#menu > ul > li:hover > ul {
+	list-style: none;
+	display: block;
+}
+
+#menu > ul > li:hover > ul > li a {
+	color: black;
+	text-decoration: none;
+}
+
+#menu > ul > li:hover > ul > li {
+	background-color: #f2f1f0;
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+	line-height: 30px;
+	font-size: 15px;
+	font-family: "Open Sans", Arial, sans-serif;
+	color: #333;
+	text-transform: initial;
+	transition: all 300ms;
+}
+
+#menu > ul > li:hover > ul > li:hover {
+	background-color: #77d877;
+}
+
+#menu > ul > li:hover > ul > li:hover a {
+	color: #f2f1f0;
+	font-weight: 700;
+}
+
+/*ESTILOS PARA LOGIN*/
+
+.ingreso {
+	background-color: white;
+	width: 40%;
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 45px;
+	border: 1px solid black;
+}
+
+#h1-login {
+	font-size: 35px;
+	text-align: center;
+	color: blue;
+}
+
+#header-login {
+	width: 92.6%;
+	height: 33px;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 0px;
+	background-color: #ffcc33;
+	color: black;
+}
+
+#form-login {
+	margin: 10px;
+}
+
+label {
+	font-size: 20px;
+}
+
+#inp-matri {
+	margin-left: 20px;
+	padding: 7px;
+}
+
+#inp-matri-p {
+	margin-left: 42px;
+	padding: 7px;
+}
+
+input[type="password"] {
+	padding: 7px;
+}
+
+.boton-aceptar {
+	padding: 15px;
+	font-size: 17px;
+	background-color: #ffcc33;
+	transition: all 300ms;
+}
+
+.boton-aceptar:hover {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	background-color: white;
+}
+
+#contacto {
+	width: 70%;
+	margin-left: 15px;
+}
+
+.departamientos {
+	width: 80%;
+	margin: 20px;
+	border: 1px solid #333;
+}
+
+.departamientos h3 {
+	padding-left: 3px;
+	line-height: 45px;
+	background-color: #ffcc33;
+	width: 100%;
+}
+
+/*ESTILOS DEL FOOTER*/
+
+#footer {
+	width: 100%;
+	height: 650px;
+	margin-top: 40px;
+	background-color: #57b157;
+	color: white;
+	overflow: hidden;
+}
+
+#footer .wrap > div {
+	float: left;
+	width: 320px;
+	height: 370px;
+	margin: 40px;
+	text-align: center;
+	color: white;
+	font-family: "TrebuchetMS";
+}
+
+#footer a {
+	text-decoration: none;
+	color: #fafafa;
+	transition: all 300ms;
+}
+
+#footer h5 {
+	display: block;
+	background: url("../Imagenes/pxgray.png"), white;
+	height: 50px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-family: "BebasNeue";
+	font-size: 40px;
+	line-height: 50px;
+	color: black;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+#footer ul {
+	text-align: left;
+	margin: 20px;
+	font-size: 25px;
+}
+
+#footer ul li {
+	margin-top: 10px;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+#footer ul li a {
+	display: block;
+	height: 40px;
+	transition: all 300ms;
+}
+
+#footer ul li:hover a {
+	padding-left: 40px;
+	color: white;
+	width: 100%;
+}
+
+#footer iframe {
+	width: 100%;
+	height: 300px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 5px solid white;
+	box-shadow: 0px 0px 5px gray;
+}
+
+#footer img {
+	margin-bottom: 15px;
+}
+
+#footer #browsers img {
+	width: 45px;
+}
+
+#footer .autor-footer {
+	display: block;
+	width: 100%;
+}
+
+#footer #politicas-condiciones {
+	display: flex;
+	width: 100%;
+	align-content: center;
+	margin-left: 357px;
+	margin-top: -9px;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul {
+	display: flex;
+	flex-flow: row wrap;
+	list-style: none;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul li {
+	text-decoration: none;
+	border: none;
+	font-size: 14.5px;
+	padding: 25px;
+	margin: 0px auto;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul li a {
+	text-decoration: none;
+	border: none;
+}
+
+#footer #politicas-condiciones .politicas-terminos ul li:hover a {
+	padding: 0px;
+	text-decoration: underline;
+}
